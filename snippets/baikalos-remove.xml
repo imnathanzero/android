@@ -24,5 +24,10 @@
   <remove-project name="crdroidandroid/android_hardware_qcom_display" revision="13.0-caf-sm8150" />
 
   <remove-project name="LineageOS/android_packages_modules_Bluetooth" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />
+
+  <remove-project name="LineageOS/android_hardware_google_pixel" />
+
+  <remove-project name="crdroidandroid/android_hardware_interfaces" />
 
 </manifest>
