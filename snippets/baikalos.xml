@@ -58,5 +58,7 @@
   <project path="hardware/google/pixel" name="baikalos/android_hardware_google_pixel" remote="baikalos" />
   <project path="hardware/interfaces" name="baikalos/android_hardware_interfaces" groups="pdk" remote="baikalos" />
 
+  <project path="lineage-sdk" name="baikalos/android_lineage-sdk" remote="baikalos" />
+
 
 </manifest>

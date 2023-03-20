@@ -29,5 +29,7 @@
   <remove-project name="LineageOS/android_hardware_google_pixel" />
 
   <remove-project name="crdroidandroid/android_hardware_interfaces" />
+  <remove-project name="crdroidandroid/android_lineage-sdk" />
+
 
 </manifest>
