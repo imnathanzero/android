@@ -49,6 +49,7 @@
   <project path="packages/apps/Settings" name="baikalos/android_packages_apps_Settings" groups="pdk-fs" remote="baikalos" />
   <project path="packages/apps/SetupWizard" name="baikalos/android_packages_apps_SetupWizard" remote="baikalos" />
   <project path="packages/modules/Bluetooth" name="baikalos/android_packages_modules_Bluetooth" remote="baikalos" />
+  <project path="packages/modules/Permission" name="baikalos/android_packages_modules_Permission" remote="baikalos" />
 
   <project path="vendor/qcom/opensource/fm-commonsys" name="baikalos/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="baikalos" />
 
