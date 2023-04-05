@@ -6,15 +6,7 @@
            revision="refs/heads/13.0"
            sync-j="8" />
 
-	<remote  name="baikalgitlab"
-	   fetch="https://gitlab.com/"
-           review="gerrit.baikalos.com"
-           revision="refs/heads/13.0"
-           sync-j="8" />
-
   <include name="snippets/baikalos-remove.xml" />
-
-
 
   <project path="android" name="baikalos/android" remote="baikalos" />
 
@@ -31,6 +23,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <project path="vendor/dolby" name="baikalos/proprietary_vendor_dolby" remote="gitlab" revision="13.0" />
 
   <project path="vendor/addons" name="baikalos/android_vendor_addons" remote="baikalos" />
   <project path="vendor/BaikalOTA" name="baikalos/android_vendor_BaikalOTA" remote="baikalos" />
