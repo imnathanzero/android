@@ -27,18 +27,19 @@
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid" />
-  <project path="external/colorkt" name="crdroidandroid/android_external_colorkt" remote="crdroid" />
   <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
   <project path="external/fastrpc" name="crdroidandroid/android_external_fastrpc" groups="pdk" remote="crdroid" />
+  <project path="external/freetype" name="crdroidandroid/android_external_freetype" groups="pdk" remote="crdroid" />
+  <project path="external/giflib" name="crdroidandroid/android_external_giflib" groups="pdk,qcom_msm8x26" remote="crdroid" />
   <project path="external/harfbuzz_ng" name="crdroidandroid/android_external_harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
+  <project path="external/libhevc" name="crdroidandroid/android_external_libhevc" groups="pdk" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" groups="pdk" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" groups="pdk" remote="crdroid" />
   <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" groups="pdk" remote="crdroid" />
   <project path="external/selinux" name="crdroidandroid/android_external_selinux" groups="pdk" remote="crdroid" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" groups="pdk" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" groups="pdk" remote="crdroid" />
-  <project path="external/themelib" name="crdroidandroid/android_external_themelib" remote="crdroid" />
   <project path="external/vixl" name="crdroidandroid/android_external_vixl" remote="crdroid" />
 
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" groups="pdk" remote="crdroid" />
@@ -90,8 +91,8 @@
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
   <project path="prebuilts/build-tools" name="crdroidandroid/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="crdroid" />
-  <!-- Clang 16 version 17.0.1 -->
-  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747b" remote="crdroid-gitlab" />
+  <!-- Clang 16 version 17.0.2 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="crdroid-gitlab" />
 
   <project path="system/core" name="crdroidandroid/android_system_core" groups="pdk" remote="crdroid" />
   <project path="system/memory/lmkd" name="crdroidandroid/android_system_memory_lmkd" groups="pdk" remote="crdroid" />
