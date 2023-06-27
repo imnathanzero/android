@@ -10,6 +10,10 @@
 
   <project path="android" name="baikalos/android" remote="baikalos" />
 
+  <project path="art" name="baikalos/android_art" groups="pdk" remote="baikalos" />
+
+  <project path="bionic" name="baikalos/android_bionic" groups="pdk" remote="baikalos" />
+
   <project path="build/make" name="baikalos/android_build" groups="pdk" remote="baikalos" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -49,11 +53,13 @@
 
   <!-- project path="hardware/qcom-caf/sm8150/display" name="Baikalos/hardware_qcom_display" remote="baikalos" revision="r-caf-sm8150" / -->
   <project path="hardware/qcom-caf/sm8150/display" name="baikalos/android_hardware_qcom_display" revision="13.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8350/display" name="baikalos/android_hardware_qcom_display" groups="qcom,lahaina" revision="13.0-caf-sm8350" />
 
   <project path="hardware/google/pixel" name="baikalos/android_hardware_google_pixel" remote="baikalos" />
   <project path="hardware/interfaces" name="baikalos/android_hardware_interfaces" groups="pdk" remote="baikalos" />
 
   <project path="lineage-sdk" name="baikalos/android_lineage-sdk" remote="baikalos" />
 
+  <project path="hardware/lineage/interfaces" name="baikalos/android_hardware_lineage_interfaces" remote="baikalos" />
 
 </manifest>

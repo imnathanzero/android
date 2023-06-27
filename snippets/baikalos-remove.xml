@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="platform/external/scudo" />
+
+  <remove-project name="crdroidandroid/android_art" />
+  <remove-project name="crdroidandroid/android_bionic" />
+
   <remove-project name="crdroidandroid/android" />
   <remove-project name="crdroidandroid/android_build" />
   <remove-project name="crdroidandroid/android_build_soong" />
@@ -22,7 +27,7 @@
   <remove-project name="crdroidandroid/android_packages_apps_SetupWizard" />
   <remove-project name="crdroidandroid/android_packages_modules_Permission" />
 
-  <remove-project name="crdroidandroid/android_hardware_qcom_display" revision="13.0-caf-sm8150" />
+  <!-- remove-project name="crdroidandroid/android_hardware_qcom_display" revision="13.0-caf-sm8150" / -->
 
   <remove-project name="LineageOS/android_packages_modules_Bluetooth" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />
@@ -31,6 +36,8 @@
 
   <remove-project name="crdroidandroid/android_hardware_interfaces" />
   <remove-project name="crdroidandroid/android_lineage-sdk" />
+
+  <remove-project name="crdroidandroid/android_hardware_lineage_interfaces" />
 
 
 </manifest>
