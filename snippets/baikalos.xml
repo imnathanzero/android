@@ -46,6 +46,7 @@
   <project path="packages/apps/Launcher3" name="baikalos/android_packages_apps_Launcher3" remote="baikalos" />
   <project path="packages/apps/Settings" name="baikalos/android_packages_apps_Settings" groups="pdk-fs" remote="baikalos" />
   <project path="packages/apps/SetupWizard" name="baikalos/android_packages_apps_SetupWizard" remote="baikalos" />
+  <project path="packages/apps/Updater" name="baikalos/android_packages_apps_Updater" remote="baikalos" />
   <project path="packages/modules/Bluetooth" name="baikalos/android_packages_modules_Bluetooth" remote="baikalos" />
   <project path="packages/modules/Permission" name="baikalos/android_packages_modules_Permission" remote="baikalos" />
 
