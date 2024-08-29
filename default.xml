@@ -55,7 +55,7 @@
   <!--<project path="bionic" name="LineageOS/android_bionic" groups="pdk" />-->
   <!--<project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />-->
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" remote="aosp" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="cts" name="LineageOS/android_cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" remote="aosp" />
   <project path="development" name="LineageOS/android_development" groups="developers,pdk-cw-fs,pdk-fs" />
@@ -376,7 +376,7 @@
   <project path="external/pandora/mmi2grpc" name="platform/external/pandora/mmi2grpc" groups="pdk" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" remote="aosp" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" remote="aosp" />
-  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" remote="aosp" />
+  <project path="external/pdfium" name="LineageOS/android_external_pdfium" groups="pdk" />
   <project path="external/perfetto" name="platform/external/perfetto" groups="pdk" remote="aosp" />
   <project path="external/pffft" name="platform/external/pffft" groups="pdk" remote="aosp" />
   <project path="external/piex" name="platform/external/piex" groups="pdk" remote="aosp" />
@@ -667,7 +667,7 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk" remote="aosp" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" remote="aosp" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" remote="aosp" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="aosp" />
+  <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" remote="aosp" />
   <!--<project path="external/sqlite" name="platform/external/sqlite" groups="pdk" remote="aosp" />-->
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
@@ -937,12 +937,12 @@
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/NeuralNetworks" name="LineageOS/android_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-fs" remote="aosp" />
-  <!--<project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />-->
+  <project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Scheduling" name="platform/packages/modules/Scheduling" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/SEPolicy" name="platform/packages/modules/SEPolicy" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/modules/StatsD" name="LineageOS/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" />
+  <!--<project path="packages/modules/StatsD" name="LineageOS/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" />-->
   <project path="packages/modules/TestModule" name="platform/packages/modules/TestModule" remote="aosp" />
   <project path="packages/modules/Uwb" name="platform/packages/modules/Uwb" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Virtualization" name="LineageOS/android_packages_modules_Virtualization" groups="pdk" />
@@ -1051,7 +1051,7 @@
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
   <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" remote="aosp" />
   <project path="system/libbase" name="platform/system/libbase" groups="pdk" remote="aosp" />
-  <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" remote="aosp" />
+  <project path="system/libfmq" name="LineageOS/android_system_libfmq" groups="pdk" />
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="aosp" />
   <project path="system/libprocinfo" name="platform/system/libprocinfo" groups="pdk" remote="aosp" />
