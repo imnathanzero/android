@@ -2,6 +2,8 @@
 <manifest>
 
   <remove-project name="platform/external/scudo" />
+  <remove-project name="platform/external/bouncycastle" />
+  <remove-project name="platform/system/hardware/interfaces" />
 
   <remove-project name="crdroidandroid/android_art" />
   <remove-project name="crdroidandroid/android_bionic" />
@@ -40,6 +42,8 @@
   <remove-project name="crdroidandroid/android_lineage-sdk" />
 
   <remove-project name="crdroidandroid/android_hardware_lineage_interfaces" />
+
+  <remove-project name="LineageOS/android_packages_modules_adb" />
 
   <!-- remove-project name="crdroidandroid/android_external_wpa_supplicant_8" / -->
 
