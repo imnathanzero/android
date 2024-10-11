@@ -2,7 +2,6 @@
 <manifest>
 
   <remove-project name="platform/external/scudo" />
-  <remove-project name="platform/external/bouncycastle" />
   <remove-project name="platform/system/hardware/interfaces" />
 
   <remove-project name="crdroidandroid/android_art" />
@@ -31,7 +30,6 @@
 
   <remove-project name="LineageOS/android_packages_modules_Permission" />
 
-  <!-- remove-project name="crdroidandroid/android_hardware_qcom_display" revision="13.0-caf-sm8150" / -->
 
   <remove-project name="crdroidandroid/android_packages_modules_Bluetooth" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />
@@ -45,6 +43,9 @@
 
   <remove-project name="LineageOS/android_packages_modules_adb" />
 
+
+  <!-- remove-project name="crdroidandroid/android_hardware_qcom_display" revision="13.0-caf-sm8150" / -->
+  <!-- remove-project name="platform/external/bouncycastle" / -->
   <!-- remove-project name="crdroidandroid/android_external_wpa_supplicant_8" / -->
 
 </manifest>

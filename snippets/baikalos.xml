@@ -52,8 +52,6 @@
 
   <project path="vendor/qcom/opensource/fm-commonsys" name="baikalos/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="baikalos" />
 
-  <!-- project path="hardware/qcom-caf/sm8150/display" name="Baikalos/hardware_qcom_display" remote="baikalos" revision="r-caf-sm8150" / -->
-
   <project path="hardware/qcom-caf/sm8150/display" name="baikalos/android_hardware_qcom_display" revision="13.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8350/display" name="baikalos/android_hardware_qcom_display" groups="qcom,lahaina" revision="13.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sdm845/display" name="baikalos/android_hardware_qcom_display" revision="lineage-20.0-caf-sdm845" />
@@ -65,11 +63,15 @@
 
   <project path="hardware/lineage/interfaces" name="baikalos/android_hardware_lineage_interfaces" remote="baikalos" />
 
-  <project path="platform/external/bouncycastle" name="baikalos/android_external_bouncycastle" remote="baikalos" />
   <project path="system/hardware/interfaces" name="baikalos/platform_system_hardware_interfaces" remote="baikalos" />
 
   <project path="packages/modules/adb" name="baikalos/android_packages_modules_adb" remote="baikalos" />
 
+  <project path="external/liblhdc" name="baikalos/android_external_liblhdc" remote="baikalos" />
+  <project path="external/liblhdcv5" name="baikalos/android_external_liblhdcv5" remote="baikalos" />
+
+  <!-- project path="hardware/qcom-caf/sm8150/display" name="Baikalos/hardware_qcom_display" remote="baikalos" revision="r-caf-sm8150" / -->
+  <!-- project path="platform/external/bouncycastle" name="baikalos/android_external_bouncycastle" remote="baikalos" / -->
   <!-- project path="external/wpa_supplicant_8" name="baikalos/android_external_wpa_supplicant_8" groups="pdk" remote="baikalos" / -->
 
 </manifest>
