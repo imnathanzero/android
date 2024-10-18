@@ -74,7 +74,6 @@
   <project path="packages/modules/adb" name="baikalos/android_packages_modules_adb" remote="baikalos" />
 
   <project path="external/liblhdc" name="baikalos/android_external_liblhdc" remote="baikalos" />
-  <project path="external/liblhdcv5" name="baikalos/android_external_liblhdcv5" remote="baikalos" />
 
   <project path="external/bouncycastle" name="baikalos/android_external_bouncycastle" remote="baikalos" />
 
