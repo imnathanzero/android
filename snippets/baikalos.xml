@@ -37,7 +37,6 @@
   <project path="system/core" name="baikalos/android_system_core" groups="pdk" remote="baikalos" />
   <project path="system/sepolicy" name="baikalos/android_system_sepolicy" groups="pdk" remote="baikalos" />
 
-  <project path="frameworks/base" name="baikalos/android_frameworks_base" remote="baikalos" />
   <project path="frameworks/av" name="baikalos/android_frameworks_av" remote="baikalos" />
   <project path="frameworks/native" name="baikalos/android_frameworks_native" remote="baikalos" />
 
